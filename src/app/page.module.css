@@ -1,0 +1,208 @@
+.page {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  
+  font-family: var(--font-geist-sans);
+  
+}
+
+.brandTitle{
+  color: #fc7a02;
+}
+
+.navbar{
+  height: 2rem;
+  width: 100%;
+  border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.navlinks{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.header{
+  margin: 3rem;
+  margin-bottom: 1rem;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profileGrid{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.profileCard{
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.profileDetails{
+  grid-row-start: 1;
+  grid-row-end: 4;
+  border: 1px solid white;
+  border-radius: 7px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 2rem;
+  row-gap: 2px;
+}
+
+.emergencyPic{
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.editButton{
+  width: 40%;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 0.5rem;
+}
+
+.profilePic{
+  grid-row-start: 1;
+  grid-row-end: 7;
+}
+
+.userName{
+  font-weight: bold;
+}
+
+.editButton:hover{
+  color: black;
+  background-color: white;
+}
+
+.profileEdit{
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.locate{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.locateMap{
+  margin-bottom: 10px;
+}
+
+.footer{
+  margin-top: 2rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #A0AEC0;
+  display: flex;
+  padding: 1rem;
+  border-top: 1px solid white;
+  font-size: 13px;
+  justify-content: space-between;
+}
+
+.heroSection{
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  
+}
+.heroInfo{
+  margin: 3rem;
+  margin-top: 1rem;
+
+}
+
+.productDisplay{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 100%;
+  
+  padding: 3rem;
+}
+
+.auraWatch{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 1px solid;
+  border-radius: 7px;
+  padding: 1rem;
+ 
+} 
+.auraBracelet{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 1px solid;
+  border-radius: 7px;
+  padding: 1rem;
+} 
+.keyFeatures{
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.productTitle{
+  font-size: 22px;
+  text-align: center;
+
+}
+
+.featureList{
+  line-height: 1.5rem;
+}
+
+.productTable{
+  border-spacing: 1rem;
+  table-layout: fixed;
+}
+
+.navLogo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo1{
+  color: #451a69;
+}
+
+.logo2{
+  color: #f8bf7c;
+}
+
+.logo3{
+  color: #fd6260;
+}
+
+.logo4{
+ color: #fc7a02; 
+}
